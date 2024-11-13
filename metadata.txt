@@ -1,12 +1,14 @@
 [general]
 name=LockCanvasZoom
-description=The Lock Canvas Zoom plugin is designed to provide users with the ability to lock or unlock the zoom functionality on the QGIS map canvas. This is particularly useful when users want to maintain a fixed zoom level while interacting with the map. Upon installation, the plugin automatically adds a toolbar button that toggles the lock state of the canvas zoom.
-version=1.0
 qgisMinimumVersion=3.0
+description=The Lock and Unlock Canvas Zoom Plugin for QGIS is designed to provide users with a simple way to lock and unlock the zoom position on the map canvas. This plugin offers a toggle button that allows users to easily switch between locked and unlocked states for the map canvas zoom.
+about:The plugin provides a straightforward way to fix the zoom level on the map canvas, so users can prevent unintended zoom adjustments.
+version=1.0
 author=Rakesh Kr Giri
 email=rakeshkrgiri00@gmail.com
-category=Map Tools
 icon=icon.png
-
-[homepage]
-url=https://github.com/rakeshkrgiri/Lock-Canvus-Zoom
+tags:zoom, wmts, lock, zoom to scale, xyz tiles, canvaszoom
+repository:https://github.com/rakeshkrgiri/Lock-Canvus-Zoom
+tracker:https://github.com/rakeshkrgiri/Lock-Canvus-Zoom/issues
+homepage=https://github.com/rakeshkrgiri/Lock-Canvus-Zoom
+category=canvuszoomlock
